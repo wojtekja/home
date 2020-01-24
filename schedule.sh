@@ -1,4 +1,5 @@
 #!/bin/bash 
+#
 path_chain=/var/lib/rundeck/scheduler/jobs/
 path_exec=/var/lib/rundeck/scheduler/execs/
 RD_CONF=/home/s5e5nf/rundeck/rd.conf
@@ -7,7 +8,7 @@ export RD_CONF
 echo "A)Create host file"
 echo "B)Prepare the schedule"
 echo "C)Execute the schedule"
-read INPUT
+read INPUT    
 
 
         case $INPUT in
